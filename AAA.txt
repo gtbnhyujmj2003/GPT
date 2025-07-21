@@ -1,0 +1,8 @@
+✨ 方案 B：加用 NotebookLM + GitHub 儲存專案
+NotebookLM 幫你管理筆記、PDF、文章、研究資料
+
+GitHub 幫你版本控管 code、記錄開發日誌
+
+然後我當整合助手，幫你整理跨系統的資料
+
+你每週只要說「幫我把這週對話整理進 GitHub」就可以了。
