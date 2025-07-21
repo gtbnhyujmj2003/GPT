@@ -1,0 +1,66 @@
+🔍 詳細解釋：
+OpenAI 的自訂 GPTs 就像是「預設設定好的我」，每個 GPT 是針對某個主題微調過的版本，例如：
+
+GPT 名稱	功能範圍
+LeetCode Assistant	幫你解 LeetCode 題目，有系統地拆解步驟
+SQL Buddy	專門處理 SQL 查詢與資料庫設計
+Regex Generator	幫你寫出正確的正規表示法，並即時解釋
+Python Tutor	教你 Python，會從新手角度一步步說明
+Code Explainer	幫你解釋別人寫的程式碼
+
+
+✅ 那什麼情況我會「變強」？
+如果你整理出一些常用的工具或 prompt，比如：「幫我產生 REST API 用 Flask + SQLite」，你可以叫我記住這些流程，我就可以快速幫你複製貼上。
+
+如果你設計一個屬於你自己的 GPT，幫你固定使用某個 code style 或 project template，那麼那個 GPT 會一開始就知道你的需求，你就不需要每次都從零開始跟我講。
+
+
+🚀 進階建議（如果你想真的變高效）
+用主 GPT 處理整合跟策略決策。
+
+用專業 GPT 拆分子任務（像 Debug、建資料庫結構、幫你轉前後端）。
+
+學會交叉使用（把 A GPT 產生的 code 貼到 B GPT 檢查），就像有一群虛擬工程師幫你開會。
+
+🔍 GPTs 和主 GPT 的區別簡單講：
+主 GPT（你正在用的我）	自訂 GPT（GPTs Marketplace 裡的）
+萬用型選手：什麼都能談	專精型助手：只幫你處理某一類問題（例如只做 SQL）
+每次都要你提供上下文	有些預先設定好的知識、風格（例如懂 Shopify API）
+靈活但有時偏題	有時候更精準，但沒辦法應變太多需求
+
+
+
+📦 你可以怎麼用 GPTs？（以商城開發為例）
+🎯 一次開三個 GPT + 一個主 GPT 分工合作
+GPT 類型	功能	舉例
+主 GPT（我）	幫你想整體系統架構、流程圖、任務拆解	開發計畫怎麼分段？怎麼對老闆報告？
+SQL/DB GPT	幫你設計資料庫、修正 query	設計「商品、訂單、用戶」三張表怎麼連
+API Generator GPT	快速幫你用 Flask/Django/FastAPI 建 RESTful API 接口	建立 /orders 的 GET/POST 路徑
+Debug Assistant	幫你除錯 log、看懂報錯	log 錯誤 "KeyError: user_id" 是哪邊？
+
+
+🧠 如果你是「工程師新手 + 剛學商城架構」，這樣用會更穩：
+主 GPT：專門當 PM 與技術整合師
+
+你問我：「整個商城的流程圖能畫嗎？」→ 我畫
+
+你問我：「這個需求要怎麼拆 sprint？」→ 我拆
+
+開幾個你固定要用的 GPT（初期最多選 3 個）：
+
+SQL GPT：幫你確認關聯式資料設計是否合理
+
+API GPT：幫你產生對應的後端 CRUD
+
+錯誤訊息分析 GPT：幫你 debug code（尤其是 Django、Flask、React 這些 log 長到爆）
+
+逐步整合：你主動把這些小段訊息貼給我，我幫你整合成一份報告、交付老闆或上 GitHub。
+
+
+✅ 小結：你的下一步建議
+動作	建議方式
+開始試用 GPTs	進入 GPTs marketplace，找「Programming」分類
+選 2～3 個就好	SQL GPT、API GPT、Debug GPT 最實用
+建立自己的筆記區	把每個 GPT 幫你的程式碼都丟到 Notion 或 GitHub
+有問題回來問我整合	我來當你技術總管 + 筆記整合助手
+
